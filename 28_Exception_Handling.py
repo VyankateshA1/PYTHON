@@ -10,6 +10,7 @@ except Exception as e:
     print(f"Invalid Input!!! {a}")
     
 print("End of Programm")
+print("have nice day")
 
 
 #### EXAMPLE - 2
