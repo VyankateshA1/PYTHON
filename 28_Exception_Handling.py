@@ -15,11 +15,11 @@ print("have nice day")
 
 #### EXAMPLE - 2
 
-try:
-    num = int(input("give integer"))
-    a = [6,3]
-    print(a[num])
-except ValueError:
-    print(ValueError)
-except IndexError:
-    print(IndexError)
+# try:
+#     num = int(input("give integer"))
+#     a = [6,3]
+#     print(a[num])2
+# except ValueError:
+#     print(ValueError)
+# except IndexError:
+#     print(IndexError)

@@ -18,15 +18,15 @@ b = 2000
 c = 4000
 d = 8000
 #ADD MONEY
-money = 1000
+money = 0000
 #MATCH
 answer1 = input(questions[0])
 if answer1 == answers[0]:
     money += a
     print("\n Congratulation You have Won ",money , "Rupees")
 else:
-    money =1000 
-    print("\n It's Wrong Answer You Loose ", money,"Rupees")
+    money =0000 
+    print("\n It's Wrong Answer You Loose ", a,"Rupees")
     
 print("You Have",money,"Prize money")
 
@@ -37,8 +37,8 @@ if answer2 == answers[1]:
     money += b
     print("\n Congratulation You have Won ",money , "Rupees")
 else:
-    money =1000 
-    print("\n It's Wrong Answer You Loose ", money,"Rupees")
+    money =money 
+    print("\n It's Wrong Answer You Loose ", b,"Rupees")
     
 print("You Have",money,"Prize money")
 
@@ -50,7 +50,7 @@ if answer3 == answers[2]:
     money += c
     print("\n Congratulation You have Won ",money , "Rupees")
 else:
-    money =1000 
-    print("\n It's Wrong Answer You Loose ", money,"Rupees")
+    money =money 
+    print("\n It's Wrong Answer You Loose ", c,"Rupees")
     
 print("You Have",money,"Prize money")

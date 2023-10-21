@@ -7,4 +7,4 @@ Country = "India"
 print(f"My name is {name} And I am From {Country}")
 # FOR NUMBERS 
 price = 50.5999
-print(f"The prize is {price:.2f}")
+print(f"The prize is {price:.3f}")
